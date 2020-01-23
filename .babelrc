@@ -8,5 +8,6 @@
     ],
     "stage-0",
     "react"
-  ]
+  ],
+  "plugins": ["babel-plugin-styled-components"]
 }
