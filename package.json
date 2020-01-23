@@ -21,11 +21,6 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "peerDependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "styled-components": "^5.0.0"
-  },
   "devDependencies": {
     "@svgr/rollup": "^2.4.1",
     "babel-core": "^6.26.3",

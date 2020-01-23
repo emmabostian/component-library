@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import React from "react";
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
@@ -11,7 +11,4 @@ export const StyledButton = styled.button`
   border-radius: 3px;
 `;
 
-export const StyledTomatoButton = styled(StyledButton)`
-  color: tomato;
-  border-color: tomato;
-`;
+export default StyledButton;
